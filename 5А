@@ -1,0 +1,1921 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поздравление от 5а</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== ШАПКА ===== -->
+<header class="site-header">
+   <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    <!--
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> -->
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main>
+    <!-- Герой-секция -->
+    <section class="hero-section">
+        <div class="hero-decorations">
+            <div class="deco-circle"></div>
+            <div class="deco-circle"></div>
+            <div class="deco-circle"></div>
+            <div class="deco-circle"></div>
+            <div class="deco-circle"></div>
+        </div>
+        <h1 class="hero-title fade-up">С днём учителя!</h1>
+        <p class="hero-subtitle fade-up" style="animation-delay:0.15s">
+            Дорогие учителя, <br>примите наши самые тёплые поздравления! 
+            <br>Спасибо за ваш труд, терпение и любовь к знаниям!
+        </p>
+        <div class="hero-date fade-up" style="animation-delay:0.3s">📅 5 октября 2026 г.</div>
+    </section>
+
+    <!-- Карточки предметов -->
+    <section class="subjects-section">
+        <h2 class="section-title fade-up" style="animation-delay:0.2s">Выберите предмет</h2>
+        <p class="section-desc fade-up" style="animation-delay:0.3s">
+            Нажмите на карточку, чтобы открыть персональную открытку
+        </p>
+
+        <div class="cards-grid">
+
+            <!-- Математика -->
+            <a href="math.html" class="subject-card card-animate" style="--card-color:#FC4C00;--card-bg:#FFF0E8;">
+                <div class="card-icon">📐</div>
+                <h3 class="card-title">Математика</h3>
+                <p class="card-desc">Числа, формулы и задачи — <br>всё подвластно Вам!</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+            <!-- Русский язык -->
+            <a href="russian.html" class="subject-card card-animate" style="--card-color:#00B4D8;--card-bg:#E8F8FC;">
+                <div class="card-icon">✍️</div>
+                <h3 class="card-title">Русский язык</h3>
+                <p class="card-desc">Великий и могучий — <br>Вы учите нас говорить красиво</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+            <!-- Литература -->
+            <a href="literature.html" class="subject-card card-animate" style="--card-color:#9B5DE5;--card-bg:#F3EDFF;">
+                <div class="card-icon">📚</div>
+                <h3 class="card-title">Литература</h3>
+                <p class="card-desc">Мир книг и поэзии открывается благодаря Вам</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+            <!-- Английский язык -->
+            <a href="english.html" class="subject-card card-animate" style="--card-color:#E91E8C;--card-bg:#FDE8F4;">
+                <div class="card-icon">🔤</div>
+                <h3 class="card-title">Английский язык</h3>
+                <p class="card-desc">Very happy Teacher's Day! <br>Вы — the best!</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+            <!-- История -->
+            <a href="history.html" class="subject-card card-animate" style="--card-color:#FFBE0B;--card-bg:#FFF8E1;">
+                <div class="card-icon">🏛️</div>
+                <h3 class="card-title">История</h3>
+                <p class="card-desc">Прошлое оживает на Ваших уроках</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+            <!-- Биология -->
+            <a href="biology.html" class="subject-card card-animate" style="--card-color:#2EC4B6;--card-bg:#E6F9F7;">
+                <div class="card-icon">🧬</div>
+                <h3 class="card-title">Биология</h3>
+                <p class="card-desc">Мир живой природы — <br>от клетки до экосистемы</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+            <!-- География -->
+            <a href="geography.html" class="subject-card card-animate" style="--card-color:#0096C7;--card-bg:#E0F4FA;">
+                <div class="card-icon">🗺️</div>
+                <h3 class="card-title">География</h3>
+                <p class="card-desc">Путешествие по планете начинается с Вашего урока</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+           
+
+            <!-- Информатика -->
+            <a href="informatics.html" class="subject-card card-animate" style="--card-color:#6A4C93;--card-bg:#EDE5F5;">
+                <div class="card-icon">🌐</div>
+                <h3 class="card-title">Информатика</h3>
+                <p class="card-desc">Биты, байты и алгоритмы — <br>цифровой мир с Вами</p>
+                <span class="card-arrow">Открыть открытку →</span>
+            </a>
+
+
+<!-- Труд для девочек -->
+<a href="labor-girls.html" class="subject-card card-animate" style="--card-color:#FF9A9E;--card-bg:#FFF0F3;">
+    <div class="card-icon">🧶</div>
+    <h3 class="card-title">Труд для девочек</h3>
+    <p class="card-desc">Шитьё, вязание и рукоделие</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+<!-- Труд для мальчиков -->
+<a href="labor-boys.html" class="subject-card card-animate" style="--card-color:#495057;--card-bg:#F1F3F5;">
+    <div class="card-icon">🔨</div>
+    <h3 class="card-title">Труд для мальчиков</h3>
+    <p class="card-desc">Столярное дело и мастерство</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+<!-- Музыка -->
+<a href="music.html" class="subject-card card-animate" style="--card-color:#7209B7;--card-bg:#F3E8FF;">
+    <div class="card-icon">🎵</div>
+    <h3 class="card-title">Музыка</h3>
+    <p class="card-desc">Ноты, ритм и гармония</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+<!-- Физкультура -->
+<a href="fizra.html" class="subject-card card-animate" style="--card-color:#2D6A4F;--card-bg:#E8F5E9;">
+    <div class="card-icon">🏃</div>
+    <h3 class="card-title">Физическая культура</h3>
+    <p class="card-desc">Спорт, здоровье и движение</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+<!-- ИЗО -->
+<a href="art.html" class="subject-card card-animate" style="--card-color:#FF006E;--card-bg:#FFE0F0;">
+    <div class="card-icon">🎨</div>
+    <h3 class="card-title">Изобразительное искусство</h3>
+    <p class="card-desc">Краски, кисти и творчество</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+            <!-- Олимпиадная математика -->
+<a href="olymp-math.html" class="subject-card card-animate" style="--card-color:#FFD700;--card-bg:#FFFDE7;">
+    <div class="card-icon">🏆</div>
+    <h3 class="card-title">Олимпиадная математика</h3>
+    <p class="card-desc">Логика, задачи и победы</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+<!-- Веб-программирование -->
+<a href="web-dev.html" class="subject-card card-animate" style="--card-color:#3A0CA3;--card-bg:#EDE9FE;">
+    <div class="card-icon">💻</div>
+    <h3 class="card-title">Веб-программирование</h3>
+    <p class="card-desc">Код, сайты и цифровое творчество</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+<!-- Секции -->
+<a href="sections.html" class="subject-card card-animate" style="--card-color:#FF6B35;--card-bg:#FFF3E0;">
+    <div class="card-icon">⭐</div>
+    <h3 class="card-title">Секции</h3>
+    <p class="card-desc">Спорт, творчество и развитие</p>
+    <span class="card-arrow">Открыть открытку →</span>
+</a>
+
+        </div>
+    </section>
+</main>
+
+<!-- ===== ПОДВАЛ ===== -->
+<footer class="site-footer">
+    <p class="footer-student">Выполнили: <span>ученики 5А класса</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Информатика</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #6A4C93 0%, #8B5CF6 40%, #C4B5FD 100%);
+        }
+        .bg-shape:nth-child(1) { width:270px;height:270px;background:#fff;top:-50px;left:-40px; }
+        .bg-shape:nth-child(2) { width:170px;height:170px;background:#DDD6FE;bottom:-20px;right:-30px; }
+        .bg-shape:nth-child(3) { width:110px;height:110px;background:#EDE5F5;top:50%;right:15%; }
+        .bg-shape:nth-child(4) { width:80px;height:80px;background:#fff;bottom:20%;left:25%;opacity:0.07; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🌐 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю информатики</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Юлия Алексеевна!</p>
+            <div class="greeting-poem">
+Процессор, память, монитор, 
+И код, что пишется на «раз».
+Вы нам открыли цифровой простор, 
+И логике учите нас.
+Пусть жизнь не знает сбоев и багов, 
+А счастье будет константой в судьбе. 
+Спасибо за мир, что открыли нам снова,
+Где всё понятно на каждой строке!
+</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Ванчугов Максим</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Труд (мальчики)</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Индустриальный серо-стальной градиент */
+        .greeting-bg {
+            background: linear-gradient(160deg, #495057 0%, #6C757D 40%, #ADB5BD 100%);
+        }
+        .bg-shape:nth-child(1) { width:300px;height:300px;background:#fff;top:-70px;left:-50px;border-radius:10%;opacity:0.05;transform:rotate(15deg);}
+        .bg-shape:nth-child(2) { width:200px;height:200px;background:#DEE2E6;bottom:-40px;right:-30px;border-radius:50%;opacity:0.08;}
+        .bg-shape:nth-child(3) { width:130px;height:130px;background:#fff;top:45%;right:15%;border-radius:0;opacity:0.04;}
+        .bg-shape:nth-child(4) { width:80px;height:80px;background:#CED4DA;bottom:25%;left:20%;opacity:0.06;border-radius:20%;}
+        
+        .greeting-address { color: #212529 !important; font-weight: 800; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🔧 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю труда</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогой Виктор Николаевич!</p>
+            <div class="greeting-poem">
+Желаем, чтобы все жизненные «чертежи» складывались идеально, «материалы» для счастья всегда были высшего качества, а «инструменты» никогда не подводили. 
+Пусть здоровье будет крепким, как закаленный металл, выдержка — стальной, а жизнь — надежной и добротной, как лучшая древесина. Пусть каждый Ваш день будет похож на шедевр, созданный с душой и настоящим мастерством!
+</div>
+            <p class="greeting-signature">С уважением, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Кожихов Георгий</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Труд</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Нежный розово-персиковый градиент */
+        .greeting-bg {
+            background: linear-gradient(160deg, #FF9A9E 0%, #FECFEF 50%, #FFF1EB 100%);
+        }
+        .bg-shape:nth-child(1) { width:280px;height:280px;background:#fff;top:-60px;right:-40px;border-radius:50%;opacity:0.3;}
+        .bg-shape:nth-child(2) { width:180px;height:180px;background:#FFD1DC;bottom:-30px;left:-20px;border-radius:50%;opacity:0.4;}
+        .bg-shape:nth-child(3) { width:120px;height:120px;background:#fff;top:40%;left:65%;border-radius:50%;opacity:0.3;}
+        .bg-shape:nth-child(4) { width:90px;height:90px;background:#FFB7C5;bottom:20%;right:20%;opacity:0.2;border-radius:30%;}
+        
+        .greeting-address { color: #D63384 !important; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🧶 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю труда</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Ольга Юрьевна!</p>
+            <div class="greeting-poem">
+Нитки, ткани, утюг и ножницы — 
+Мастерство рождается в руках. 
+Вы учите нас не просто творить, 
+А держать уют в своих домах.
+Пусть стежок будет ровным и точным, 
+А жизнь — сладкой, как лучший десерт. 
+Спасибо за труд ваш беспорочный, 
+За тепло, что дарите нам здесь!
+</div>
+            <p class="greeting-signature">С нежностью, ученицы 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнилa: <br><span>Земскова Виктория</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Литература</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #9B5DE5 0%, #7B2FF7 40%, #C77DFF 100%);
+        }
+        .bg-shape:nth-child(1) { width:260px;height:260px;background:#fff;top:-50px;right:-50px; }
+        .bg-shape:nth-child(2) { width:170px;height:170px;background:#E8D5FF;bottom:-20px;left:-20px; }
+        .bg-shape:nth-child(3) { width:130px;height:130px;background:#F3EDFF;top:35%;left:55%; }
+        .bg-shape:nth-child(4) { width:80px;height:80px;background:#fff;bottom:25%;right:25%;opacity:0.07; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">📖 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю литературы</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Наталья Михайловна!</p>
+            <div class="greeting-poem">
+Строки, романы, стихи и поэмы, 
+Мир оживает на страницах книг. 
+Вы учите нас не просто читать, <br>а видеть темы, 
+Чтоб каждый герой <br>стал нам как родник.
+Пусть вдохновение в сердце не гаснет, 
+А сюжет вашей жизни <br>счастливым будет. 
+Спасибо за мир, <br>что Вы нам дарите ясно, 
+За то, что Вы учите нас, как никто, <br>любить людей!
+</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнилa: <br><span>Скалунова Алиса</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<svg width="10408" height="1941" viewBox="0 0 10408 1941" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7442 1164.15V0H7144.77V1348.79C7144.77 1519.92 7279.87 1598.74 7419.48 1598.74C7552.34 1598.74 7633.4 1562.71 7739.23 1407.34L8320.18 547.173H8464.29V1576.22H8761.52V0H8374.22L7586.11 1164.15H7442ZM3499.2 1164.15V0H3201.97V1348.79C3201.97 1519.92 3337.08 1598.74 3476.69 1598.74C3609.54 1598.74 3690.6 1562.71 3796.43 1407.34L4377.38 547.173H4521.49V1576.22H4818.72V0H4431.42L3643.31 1164.15H3499.2ZM9806.33 0C9373.99 0 9020.47 236.433 9020.47 779.102C9020.47 1321.77 9355.98 1576.22 9806.33 1576.22H10407.5V1227.2H9752.28C9502.34 1227.2 9326.71 1047.06 9326.71 779.102C9326.71 511.145 9500.09 349.02 9752.28 349.02H10407.5V0H9806.33ZM6406.2 1227.2H5498.75L5728.43 349.02H6406.2V1227.2ZM5534.78 0L5210.53 1227.2H4967.34V1941H5230.79L5287.09 1576.22H6665.15V1941H6928.6L6973.64 1227.2H6703.43V0H5534.78ZM1173.16 2.25174L0 1576.22H385.047L1139.38 547.173H1283.49V1326.27C1283.49 1508.67 1420.85 1576.22 1551.45 1576.22C1695.56 1576.22 1785.63 1526.68 1877.95 1384.82L2422.87 547.173H2566.98V1576.22H2864.21V0H2463.4L1720.33 1141.63H1576.22V2.25174H1173.16Z" fill="#FC4C00"/>
+</svg>
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Математика</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #FC4C00 0%, #FF7B3A 40%, #FFBE0B 100%);
+        }
+        .bg-shape:nth-child(1) { width:300px;height:300px;background:#fff;top:-80px;right:-60px; }
+        .bg-shape:nth-child(2) { width:200px;height:200px;background:#FFD6A5;bottom:-40px;left:-30px; }
+        .bg-shape:nth-child(3) { width:150px;height:150px;background:#FFE8CC;top:40%;left:60%; }
+        .bg-shape:nth-child(4) { width:100px;height:100px;background:#fff;bottom:20%;right:15%;opacity:0.08; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">📐 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю математики</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Ольга Федоровна!</p>
+            <div class="greeting-poem">
+Цифры, формулы, точный расчет —
+Мир обретает гармонию враз.
+Вы учите логике, шагу вперед,
+И теоремы понятны для нас. 
+Пусть в жизни всё складывается легко,
+Успех умножается день ото дня. 
+Спасибо за мудрость и знаний тепло, 
+Что ведут нас к вершинам, маня!
+</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнилa: <br><span>Кузнецова Мария</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Музыка</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Мелодичный фиолетово-синий градиент */
+        .greeting-bg {
+            background: linear-gradient(160deg, #7209B7 0%, #560BAD 40%, #480CA8 100%);
+        }
+        .bg-shape:nth-child(1) { width:280px;height:280px;background:#fff;top:-60px;right:-40px;border-radius:50%;opacity:0.06;}
+        .bg-shape:nth-child(2) { width:180px;height:180px;background:#B5179E;bottom:-30px;left:-20px;border-radius:50%;opacity:0.1;}
+        .bg-shape:nth-child(3) { width:120px;height:120px;background:#fff;top:50%;left:60%;border-radius:50%;opacity:0.05;}
+        .bg-shape:nth-child(4) { width:90px;height:90px;background:#F72585;bottom:20%;right:25%;opacity:0.08;border-radius:50%;}
+        
+        .greeting-address { color: #F72585 !important; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🎼 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю музыки</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Екатерина Викторовна!</p>
+            <div class="greeting-poem">
+Ноты, ключи, аккорды звучат —
+Мир наполняется гармонией.
+Вы учите слышать души стук
+В каждой мелодии, в каждой симфонии.
+Пусть вдохновение не смолкнет,
+А жизнь будет звонкой и чистой.
+Спасибо за музыкальный урок,
+Что дарите нам Вы с любовью и смыслом!
+</div>
+            <p class="greeting-signature">С музыкальной любовью, <br>ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Запорожец Даниил</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Олимпиадная математика</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Золотисто-черный премиальный стиль для олимпиад */
+        .greeting-bg {
+            background: linear-gradient(160deg, #1A1A2E 0%, #16213E 40%, #FFD700 100%);
+        }
+        .bg-shape:nth-child(1) { width:350px;height:350px;background:#FFD700;top:-80px;right:-60px;border-radius:50%;opacity:0.08;}
+        .bg-shape:nth-child(2) { width:220px;height:220px;background:#fff;bottom:-50px;left:-40px;border-radius:50%;opacity:0.05;}
+        .bg-shape:nth-child(3) { width:140px;height:140px;background:#FFD700;top:50%;left:60%;border-radius:50%;opacity:0.1;}
+        .bg-shape:nth-child(4) { width:90px;height:90px;background:#fff;bottom:25%;right:25%;opacity:0.04;}
+        
+        .greeting-subject-name { text-shadow: 0 0 20px rgba(255, 215, 0, 0.4); }
+        .greeting-address { color: #FFD700 !important; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🏆 Открытка </div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю олимпиадной математики</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогой Павел Викторович!</p>
+            <div class="greeting-poem">
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Пьянков Эрнест</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Русский язык</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #00B4D8 0%, #0096C7 40%, #48CAE4 100%);
+        }
+        .bg-shape:nth-child(1) { width:280px;height:280px;background:#fff;top:-60px;left:-40px; }
+        .bg-shape:nth-child(2) { width:180px;height:180px;background:#B2EBF2;bottom:-30px;right:-20px; }
+        .bg-shape:nth-child(3) { width:120px;height:120px;background:#E0F7FA;top:50%;right:10%; }
+        .bg-shape:nth-child(4) { width:90px;height:90px;background:#fff;bottom:30%;left:20%;opacity:0.08; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">✒️ Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю русского языка</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогой Сергей Александрович!</p>
+            <div class="greeting-poem">
+Буквы и слова, <br>и стройный ряд морфем —
+Вы раскрываете нам языка секрет.
+В потоке фраз <br>мы слышим музыки пример,
+И в каждом слове — <br>чудесный, тонкий свет.
+
+Пусть речь звучит легко, <br>красиво и свободно,
+А слово будет метким, чистым, благородным.
+Спасибо, что с терпеньем <br>и с душой большой
+Вы дарите нам мир, <br>богатый и живой!
+</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Михалин Лев</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Секции</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Яркий энергичный градиент */
+        .greeting-bg {
+            background: linear-gradient(160deg, #FF6B35 0%, #F7C59F 40%, #EFEFD0 100%);
+        }
+        .bg-shape:nth-child(1) { width:280px;height:280px;background:#fff;top:-50px;left:-40px;border-radius:50%;opacity:0.1;}
+        .bg-shape:nth-child(2) { width:190px;height:190px;background:#FF6B35;bottom:-30px;right:-30px;border-radius:50%;opacity:0.12;}
+        .bg-shape:nth-child(3) { width:130px;height:130px;background:#004E89;top:45%;right:15%;border-radius:50%;opacity:0.08;}
+        .bg-shape:nth-child(4) { width:85px;height:85px;background:#fff;bottom:20%;left:20%;opacity:0.06;}
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">⭐ Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Руководителям секций</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогие наши тренеры и наставники!</p>
+            <div class="greeting-poem">
+Не только уроки важны в нашей школе,
+Но и секции, где мы растем душой.
+Вы учите силе, творчеству и воле,
+Быть командой дружной и быть собой.
+
+Спасибо за спорт, за рисунки, за танцы,
+За то, что вне класса вы рядом всегда.
+Пусть ваши глаза от побед наших мчатся,
+А радость и счастье не гаснет никогда!</div>
+            <p class="greeting-signature">С любовью и энергией, <br>ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнили: <span>ученики 5А класса</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+/* ============================================
+   С ДНЁМ УЧИТЕЛЯ — Единые стили
+   Цветовая палитра на основе логотипов:
+   Оранжевый МИДИС: #FC4C00
+   Голубой 7ключей: #00B4D8
+   Розовый/малиновый: #E91E8C
+   Фиолетовый: #9B5DE5
+   Зелёный: #2EC4B6
+   Жёлтый: #FFBE0B
+   Тёмно-оранжевый: #FB5607
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Caveat:wght@400;700&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange: #FC4C00;
+    --dark-orange: #E04300;
+    --light-orange: #FFF0E8;
+    --blue: #00B4D8;
+    --pink: #E91E8C;
+    --purple: #9B5DE5;
+    --green: #2EC4B6;
+    --yellow: #FFBE0B;
+    --red: #EF233C;
+    --dark: #2B2D42;
+    --white: #FFFFFF;
+    --gray-light: #F8F9FA;
+    --shadow: 0 8px 32px rgba(0,0,0,0.1);
+    --shadow-hover: 0 16px 48px rgba(0,0,0,0.18);
+    --radius: 20px;
+    --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: var(--dark);
+    background: var(--gray-light);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+/* ===== ШАПКА ===== */
+.site-header {
+    background: linear-gradient(135deg, var(--white) 0%, var(--light-orange) 100%);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(252, 76, 0, 0.1);
+    border-bottom: 3px solid var(--orange);
+}
+
+.header-logo {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    transition: var(--transition);
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+.header-logo2 {
+    height: 60px;
+    width: 168px;
+    object-fit: contain;
+    transition: var(--transition);
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.header-logo:hover {
+    transform: scale(1.08);
+    filter: drop-shadow(0 4px 8px rgba(252, 76, 0, 0.2));
+}
+
+.header-center {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.btn-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: linear-gradient(135deg, var(--orange), var(--dark-orange));
+    color: var(--white);
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    transition: var(--transition);
+    box-shadow: 0 4px 15px rgba(252, 76, 0, 0.35);
+    border: none;
+    cursor: pointer;
+}
+
+.btn-home:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(252, 76, 0, 0.5);
+    background: linear-gradient(135deg, var(--dark-orange), var(--orange));
+}
+
+.btn-home svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+/* ===== ОСНОВНОЙ КОНТЕНТ ===== */
+main {
+    flex: 1;
+}
+
+/* ===== ГЛАВНАЯ СТРАНИЦА ===== */
+.hero-section {
+    background: linear-gradient(135deg, var(--orange) 0%, var(--pink) 50%, var(--purple) 100%);
+    padding: 80px 32px 60px;
+    text-align: center;
+    color: var(--white);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: heroPulse 6s ease-in-out infinite;
+}
+
+@keyframes heroPulse {
+    0%, 100% { transform: scale(1); opacity: 0.5; }
+    50% { transform: scale(1.1); opacity: 0.8; }
+}
+
+.hero-title {
+    font-family: 'Caveat', cursive;
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    font-weight: 700;
+    margin-bottom: 16px;
+    position: relative;
+    z-index: 1;
+    text-shadow: 2px 4px 8px rgba(0,0,0,0.2);
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    font-weight: 600;
+    opacity: 0.95;
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.hero-date {
+    display: inline-block;
+    margin-top: 24px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 10px 28px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 1.1rem;
+    position: relative;
+    z-index: 1;
+    border: 2px solid rgba(255,255,255,0.3);
+}
+
+/* Декоративные элементы героя */
+.hero-decorations {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.deco-circle {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.15;
+    animation: floatCircle 8s ease-in-out infinite;
+}
+
+.deco-circle:nth-child(1) {
+    width: 120px; height: 120px;
+    background: var(--yellow);
+    top: 10%; left: 5%;
+    animation-delay: 0s;
+}
+.deco-circle:nth-child(2) {
+    width: 80px; height: 80px;
+    background: var(--blue);
+    top: 60%; right: 8%;
+    animation-delay: 2s;
+}
+.deco-circle:nth-child(3) {
+    width: 100px; height: 100px;
+    background: var(--green);
+    bottom: 15%; left: 15%;
+    animation-delay: 4s;
+}
+.deco-circle:nth-child(4) {
+    width: 60px; height: 60px;
+    background: var(--pink);
+    top: 20%; right: 20%;
+    animation-delay: 1s;
+}
+.deco-circle:nth-child(5) {
+    width: 90px; height: 90px;
+    background: var(--purple);
+    bottom: 30%; right: 30%;
+    animation-delay: 3s;
+}
+
+@keyframes floatCircle {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+/* Карточки предметов */
+.subjects-section {
+    padding: 60px 32px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: clamp(2rem, 5vw, 3rem);
+    color: var(--dark);
+    margin-bottom: 12px;
+}
+
+.section-desc {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 48px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 28px;
+}
+
+.subject-card {
+    background: var(--white);
+    border-radius: var(--radius);
+    padding: 36px 24px 32px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--dark);
+    transition: var(--transition);
+    box-shadow: var(--shadow);
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.subject-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: var(--card-color, var(--orange));
+    transition: var(--transition);
+}
+
+.subject-card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: var(--shadow-hover);
+    border-color: var(--card-color, var(--orange));
+}
+
+.subject-card:hover::before {
+    height: 8px;
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+    background: var(--card-bg, var(--light-orange));
+    transition: var(--transition);
+}
+
+.subject-card:hover .card-icon {
+    transform: rotateY(180deg) scale(1.1);
+    background: var(--card-color, var(--orange));
+    color: var(--white);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+    color: var(--dark);
+}
+
+.card-desc {
+    font-size: 0.9rem;
+    color: #888;
+    line-height: 1.5;
+}
+
+.card-arrow {
+    display: inline-block;
+    margin-top: 16px;
+    color: var(--card-color, var(--orange));
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.subject-card:hover .card-arrow {
+    transform: translateX(6px);
+}
+
+/* ===== СТРАНИЦА ОТКРЫТКИ ===== */
+.greeting-page {
+    min-height: calc(100vh - 160px);
+    position: relative;
+    overflow: hidden;
+}
+
+.greeting-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.greeting-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 32px 80px;
+    text-align: center;
+}
+
+.greeting-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(10px);
+    padding: 8px 24px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+    color: var(--dark);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.greeting-subject-name {
+    font-family: 'Caveat', cursive;
+    font-size: clamp(2.5rem, 7vw, 4rem);
+    color: var(--white);
+    text-shadow: 2px 3px 6px rgba(0,0,0,0.3);
+    margin-bottom: 32px;
+    line-height: 1.2;
+}
+
+.greeting-card-inner {
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(15px);
+    border-radius: var(--radius);
+    padding: 48px 40px;
+    box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+.greeting-address1 {
+    color:#6728b2;
+     font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.greeting-address {
+    font-family: 'Caveat', cursive;
+    font-size: 1.8rem;
+    color: var(--orange);
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+
+
+.greeting-poem {
+    font-size: 1.15rem;
+    line-height: 2;
+    color: var(--dark);
+    font-style: italic;
+    white-space: pre-line;
+}
+
+.greeting-signature {
+    margin-top: 32px;
+    font-size: 1rem;
+    color: var(--orange);
+    font-weight: 600;
+}
+
+.greeting-signature span {
+    color: var(--orange);
+}
+
+/* Декоративные элементы фона открытки */
+.bg-pattern {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.bg-shape {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.12;
+}
+
+/* ===== ПОДВАЛ ===== */
+.site-footer {
+    background: linear-gradient(135deg, var(--dark) 0%, #1a1a2e 100%);
+    color: var(--white);
+    text-align: center;
+    padding: 32px 24px;
+    border-top: 3px solid var(--orange);
+}
+
+.footer-student {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.footer-student span {
+    color: var(--yellow);
+}
+
+.footer-teacher {
+    font-size: 0.95rem;
+    color: rgba(255,255,255,0.7);
+    font-weight: 600;
+}
+
+.footer-teacher span {
+    color: var(--blue);
+}
+
+/* ===== АДАПТИВНОСТЬ ===== */
+@media (max-width: 768px) {
+    .site-header {
+        padding: 12px 16px;
+        gap: 8px;
+    }
+
+    .header-logo {
+        height: 50px;
+    }
+
+    .header-logo2 {
+        height: 20px;
+        width: 70px;
+    }
+
+    .btn-home {
+        padding: 10px 18px;
+        font-size: 0.85rem;
+    }
+
+    .hero-section {
+        padding: 50px 20px 40px;
+    }
+
+    .subjects-section {
+        padding: 40px 16px 60px;
+    }
+
+    .cards-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 18px;
+    }
+
+    .subject-card {
+        padding: 28px 18px 24px;
+    }
+
+    .card-icon {
+        width: 64px;
+        height: 64px;
+        font-size: 1.8rem;
+    }
+
+    .greeting-content {
+        padding: 40px 20px 60px;
+    }
+
+    .greeting-card-inner {
+        padding: 32px 24px;
+    }
+
+    .greeting-poem {
+        font-size: 1.05rem;
+        line-height: 1.85;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        padding: 10px 12px;
+    }
+
+    .header-logo {
+        height: 36px;
+    }
+
+    .btn-home span {
+        display: none;
+    }
+
+    .btn-home {
+        padding: 10px 14px;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .greeting-card-inner {
+        padding: 24px 18px;
+    }
+
+    .greeting-address {
+        font-size: 1.4rem;
+    }
+}
+
+/* ===== АНИМАЦИИ ПОЯВЛЕНИЯ ===== */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.7s ease forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card-animate {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: cardAppear 0.6s ease forwards;
+}
+
+@keyframes cardAppear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Задержки для карточек */
+.card-animate:nth-child(1) { animation-delay: 0.05s; }
+.card-animate:nth-child(2) { animation-delay: 0.1s; }
+.card-animate:nth-child(3) { animation-delay: 0.15s; }
+.card-animate:nth-child(4) { animation-delay: 0.2s; }
+.card-animate:nth-child(5) { animation-delay: 0.25s; }
+.card-animate:nth-child(6) { animation-delay: 0.3s; }
+.card-animate:nth-child(7) { animation-delay: 0.35s; }
+.card-animate:nth-child(8) { animation-delay: 0.4s; }
+.card-animate:nth-child(9) { animation-delay: 0.45s; }
+.card-animate:nth-child(10) { animation-delay: 0.5s; }
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Веб-программирование</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Темно-синий/фиолетовый градиент в стиле кода */
+        .greeting-bg {
+            background: linear-gradient(160deg, #2B2D42 0%, #3A0CA3 50%, #7209B7 100%);
+        }
+        .bg-shape:nth-child(1) { width:300px;height:300px;background:#fff;top:-60px;right:-50px;border-radius:20%;opacity:0.05;transform:rotate(45deg);}
+        .bg-shape:nth-child(2) { width:200px;height:200px;background:#4CC9F0;bottom:-40px;left:-30px;border-radius:10%;opacity:0.1;}
+        .bg-shape:nth-child(3) { width:120px;height:120px;background:#F72585;top:40%;left:70%;border-radius:50%;opacity:0.15;}
+        .bg-shape:nth-child(4) { width:80px;height:80px;background:#fff;bottom:20%;right:20%;opacity:0.05;border-radius:0;}
+        
+        /* Моноширинный шрифт для адреса */
+        .greeting-address { font-family: 'Courier New', monospace !important; color: #4CC9F0 !important; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">&lt;/&gt; Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю веб-программирования</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address1">&lt;h1&gt;Дорогая Лилия Рэхтямовна!&lt;/h1&gt;</p>
+            <div class="greeting-poem" style="font-family: 'Courier New', monospace;">
+Теги, стили, скрипты, код —
+Мир оживает на экране.
+Вы учите строить мосты
+Между идеей и реализацией.
+Пусть баги обходят стороной,
+А сервер работает стабильно.
+Спасибо за путь непростой,
+Что делает нас профессионально сильными.
+            </div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>напиши свою Фамилию и имя</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — ИЗО</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Радужный творческий градиент */
+        .greeting-bg {
+            background: linear-gradient(160deg, #FF006E 0%, #FB5607 30%, #FFBE0B 60%, #8338EC 100%);
+        }
+        .bg-shape:nth-child(1) { width:280px;height:280px;background:#fff;top:-60px;right:-40px;border-radius:50%;opacity:0.1;}
+        .bg-shape:nth-child(2) { width:180px;height:180px;background:#FFD166;bottom:-30px;left:-20px;border-radius:50%;opacity:0.15;}
+        .bg-shape:nth-child(3) { width:120px;height:120px;background:#fff;top:45%;left:65%;border-radius:50%;opacity:0.08;}
+        .bg-shape:nth-child(4) { width:90px;height:90px;background:#EF233C;bottom:20%;right:20%;opacity:0.1;border-radius:40%;}
+        
+        .greeting-address { color: #fff !important; text-shadow: 0 2px 4px rgba(0,0,0,0.3); }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🎨 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю изобразительного искусства</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address1">Дорогой Вадим Владиславович!</p>
+            <div class="greeting-poem">
+Вы учите нас видеть красоту,
+Ловить момент и чувствовать цвет.
+Пусть сбудется любая мечта,
+И долгим будет творческий след! 
+</div>
+            <p class="greeting-signature">С творческой любовью, <br>ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнила: <br><span>Морозова Варвара</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Биология</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #2EC4B6 0%, #06D6A0 40%, #80ED99 100%);
+        }
+        .bg-shape:nth-child(1) { width:280px;height:280px;background:#fff;top:-50px;left:-50px; }
+        .bg-shape:nth-child(2) { width:170px;height:170px;background:#D1FAE5;bottom:-20px;right:-30px; }
+        .bg-shape:nth-child(3) { width:110px;height:110px;background:#E6F9F7;top:50%;right:15%; }
+        .bg-shape:nth-child(4) { width:80px;height:80px;background:#fff;bottom:25%;left:25%;opacity:0.07; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🧬 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю биологии</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Татьяна Сергеевна!</p>
+            <div class="greeting-poem">
+Учитель наш, хранитель знаний тайных,
+Вам в День учителя поклон земной!
+Вы объясняете нам мир понятный,
+Где жизнь кипит невидимой волной.
+От клетки до сложнейших экосистем,
+От ДНК спирали до цветка —
+Вы открываете нам новый листик
+В огромной книге бытия-реке.
+Спасибо за терпение и мудрость,
+За то, что пробуждаете интерес.
+Пусть будет легкой Ваша каждая трудность,
+А жизнь полна чудес и прогресса!
+Здоровья крепкого, как у дуба векового,
+Энергии, как в митохондриях весной,
+И счастья самого большого,
+Чтоб сердце билось радостной волной!
+</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Козлов Макар</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Английский язык</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #E91E8C 0%, #FF6BCB 40%, #FF9ECD 100%);
+        }
+        .bg-shape:nth-child(1) { width:270px;height:270px;background:#fff;top:-70px;left:-30px; }
+        .bg-shape:nth-child(2) { width:190px;height:190px;background:#FFD6E8;bottom:-40px;right:-30px; }
+        .bg-shape:nth-child(3) { width:110px;height:110px;background:#FDE8F4;top:45%;right:20%; }
+        .bg-shape:nth-child(4) { width:85px;height:85px;background:#fff;bottom:15%;left:30%;opacity:0.07; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🔤 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителям английского языка</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Oksana Konstantinovna <br>and Oksana Nikolaevna!</p>
+            <div class="greeting-poem">
+Letters, words, and books we share, 
+You build a bridge beyond compare. 
+You teach us how to speak and write, 
+And make the foreign world feel right.
+You teach us how to find our voice, 
+And in each culture, to rejoice. 
+To see the beauty in a phrase, 
+And navigate the language maze.
+May inspiration never fade, 
+For every memory we have made. 
+May joy and passion brightly burn, 
+With every page and every turn.
+Thank you for the worlds you show, 
+For the seeds of thought you sow. 
+Thank you for the gift of speech, 
+That makes our wide horizons rich.
+</div>
+            <p class="greeting-signature">With love, students of 5A ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Виттенберг Августин</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Физкультура</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Энергичный зелено-лаймовый градиент */
+        .greeting-bg {
+            background: linear-gradient(160deg, #2D6A4F 0%, #40916C 40%, #74C69D 100%);
+        }
+        .bg-shape:nth-child(1) { width:300px;height:300px;background:#fff;top:-70px;left:-40px;border-radius:50%;opacity:0.06;}
+        .bg-shape:nth-child(2) { width:200px;height:200px;background:#D8F3DC;bottom:-40px;right:-30px;border-radius:50%;opacity:0.1;}
+        .bg-shape:nth-child(3) { width:130px;height:130px;background:#fff;top:40%;right:15%;border-radius:50%;opacity:0.05;}
+        .bg-shape:nth-child(4) { width:85px;height:85px;background:#B7E4C7;bottom:25%;left:20%;opacity:0.07;border-radius:30%;}
+        
+        .greeting-address { color: #1B4332 !important; font-weight: 800; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🏃 Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю физической культуры</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Ольга Валентиновна!</p>
+            <div class="greeting-poem">
+Мяч, скакалка, стадион —
+Движение дарит силу.
+Вы учите нас со всех сторон
+Любить спорт и ценить красоту тела.
+Пусть здоровье будет крепким,
+А энергии — хоть отбавляй.
+Спасибо за каждый урок меткий,
+Что делает дух наш и тело крепким!
+</div>
+            <p class="greeting-signature">Со спортивным приветом, <br>ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Макаров Сергей</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — География</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #0096C7 0%, #0077B6 40%, #90E0EF 100%);
+        }
+        .bg-shape:nth-child(1) { width:300px;height:300px;background:#fff;top:-70px;right:-50px; }
+        .bg-shape:nth-child(2) { width:200px;height:200px;background:#CAF0F8;bottom:-40px;left:-30px; }
+        .bg-shape:nth-child(3) { width:130px;height:130px;background:#E0F4FA;top:35%;left:60%; }
+        .bg-shape:nth-child(4) { width:90px;height:90px;background:#fff;bottom:20%;right:25%;opacity:0.08; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🗺️ Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю географии</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогая Татьяна Александровна!</p>
+            <div class="greeting-poem">
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление
+Поздравление</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>Пантелеев Марк</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — История</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .greeting-bg {
+            background: linear-gradient(160deg, #FFBE0B 0%, #FFD166 40%, #FFEAA7 100%);
+        }
+        .bg-shape:nth-child(1) { width:290px;height:290px;background:#fff;top:-60px;right:-40px; }
+        .bg-shape:nth-child(2) { width:180px;height:180px;background:#FFF3CD;bottom:-30px;left:-20px; }
+        .bg-shape:nth-child(3) { width:120px;height:120px;background:#FFF8E1;top:40%;left:65%; }
+        .bg-shape:nth-child(4) { width:90px;height:90px;background:#fff;bottom:20%;right:20%;opacity:0.08; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+            <div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">🏛️ Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю истории</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address">Дорогой Алексей Борисович!</p>
+            <div class="greeting-poem">
+Пусть даты в памяти не путаются,
+А эпохи ясно говорят.
+Пусть века с улыбкой обернутся,
+Даря мудрость, опыт и талант.
+Вы не просто учите событиям,
+Вы учите понимать причинно-следственную связь.
+Быть историком — значит быть хранителем,
+Тех традиций, что нам так важны.
+Пусть учебник жизни будет интересным,
+Без войн, без смут, без горьких страниц.
+Каждый день пусть будет чудесным,
+Как страница из лучших книг.
+Желаем вам здоровья крепкого,
+Силы духа и терпения.
+Чтоб каждый урок был легким,
+И приносил вдохновение!
+</div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнила: <br><span>Мишенина Александра</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
