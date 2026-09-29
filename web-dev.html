@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>С днём учителя — Веб-программирование</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Темно-синий/фиолетовый градиент в стиле кода */
+        .greeting-bg {
+            background: linear-gradient(160deg, #2B2D42 0%, #3A0CA3 50%, #7209B7 100%);
+        }
+        .bg-shape:nth-child(1) { width:300px;height:300px;background:#fff;top:-60px;right:-50px;border-radius:20%;opacity:0.05;transform:rotate(45deg);}
+        .bg-shape:nth-child(2) { width:200px;height:200px;background:#4CC9F0;bottom:-40px;left:-30px;border-radius:10%;opacity:0.1;}
+        .bg-shape:nth-child(3) { width:120px;height:120px;background:#F72585;top:40%;left:70%;border-radius:50%;opacity:0.15;}
+        .bg-shape:nth-child(4) { width:80px;height:80px;background:#fff;bottom:20%;right:20%;opacity:0.05;border-radius:0;}
+        
+        /* Моноширинный шрифт для адреса */
+        .greeting-address { font-family: 'Courier New', monospace !important; color: #4CC9F0 !important; }
+    </style>
+</head>
+<body>
+
+<header class="site-header">
+    <img src="logo-7keys.png" alt="7 ключей" class="header-logo"> 
+    
+    <div class="header-center">
+        <a href="index.html" class="btn-home">
+            <svg viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+            <span>На главную</span>
+        </a>
+    </div> 
+    <img src="logo-midis1.svg" alt="МИДИС" class="header-logo2">
+</header>
+
+<main class="greeting-page">
+    <div class="greeting-bg">
+        <div class="bg-pattern">
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+            <div class="bg-shape"></div><div class="bg-shape"></div>
+        </div>
+    </div>
+    <div class="greeting-content">
+        <div class="greeting-badge fade-up">&lt;/&gt; Открытка</div>
+        <h1 class="greeting-subject-name fade-up" style="animation-delay:0.1s">Учителю веб-программирования</h1>
+
+        <div class="greeting-card-inner fade-up" style="animation-delay:0.2s">
+            <p class="greeting-address1">&lt;h1&gt;Дорогая Лилия Рэхтямовна!&lt;/h1&gt;</p>
+            <div class="greeting-poem" style="font-family: 'Courier New', monospace;">
+Теги, стили, скрипты, код —
+Мир оживает на экране.
+Вы учите строить мосты
+Между идеей и реализацией.
+Пусть баги обходят стороной,
+А сервер работает стабильно.
+Спасибо за путь непростой,
+Что делает нас профессионально сильными.
+            </div>
+            <p class="greeting-signature">С любовью, ученики 5А класса ❤️</p>
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <p class="footer-student">Выполнил: <br><span>напиши свою Фамилию и имя</span></p>
+    <p class="footer-teacher">Руководитель проекта: <br><span>Хаятова Лилия Рэхтямовна</span></p>
+</footer>
+
+</body>
+</html>
